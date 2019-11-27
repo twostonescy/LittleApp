@@ -21,6 +21,9 @@
     <ClInclude Include="common\head.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="textsearch\TextQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -30,6 +33,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="common\head.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textsearch\TextQuery.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

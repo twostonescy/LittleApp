@@ -4,13 +4,21 @@
 #include "pch.h"
 #include <iostream>
 #include "common/head.h"
+#include "textsearch/TextQuery.h"
+#include <fstream>
+#include <direct.h>
+
+void runQueries();
 
 int main()
 {
     std::cout << "Hello World!\n"; 
-    int a = 1;
-    pp(a);
-    ++a;
+
+    runQueries();
+    
+    char buf[1024];
+    _getcwd(buf, 1024);
+    pp(buf);
     system("pause");
 }
 
