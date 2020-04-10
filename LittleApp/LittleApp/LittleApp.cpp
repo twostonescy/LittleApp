@@ -2,23 +2,15 @@
 //
 
 #include "pch.h"
-#include <iostream>
 #include "common/head.h"
-#include "textsearch/TextQuery.h"
-#include <fstream>
-#include <direct.h>
-
-void runQueries();
+#include "common/ifile.h"
 
 int main()
 {
     std::cout << "Hello World!\n"; 
 
-    runQueries();
-    
-    char buf[1024];
-    _getcwd(buf, 1024);
-    pp(buf);
+    Sync s;
+    s.beginsy();
     system("pause");
 }
 

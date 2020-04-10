@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="common\ifile.h" />
+    <ClInclude Include="thread synchronization\synchronization.h" />
     <ClInclude Include="common\head.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="textsearch\TextQuery.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="common\ifile.cpp" />
+    <ClCompile Include="thread synchronization\synchronization.cpp" />
     <ClCompile Include="common\head.cpp" />
     <ClCompile Include="LittleApp.cpp" />
     <ClCompile Include="pch.cpp">

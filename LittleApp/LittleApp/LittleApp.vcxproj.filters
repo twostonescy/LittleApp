@@ -24,6 +24,12 @@
     <ClInclude Include="textsearch\TextQuery.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="thread synchronization\synchronization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ifile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -36,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="textsearch\TextQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thread synchronization\synchronization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ifile.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
